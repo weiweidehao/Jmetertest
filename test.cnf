@@ -1,0 +1,30 @@
+Thead_Count=1
+Connect_Count=1
+Loop_Count=1
+Multi_Insert_Count=10
+Multi_Count=100
+Sql_Str=INSERT INTO poc_test_74 values('E${1}#0/T','${2}${3}${4}',?,'E','T',
+Sql_Str2=,'15:00','','','','','','','','','','','','','','','','','','','0101','60400','15:00','','','','','','','15:00','0246','','','','','','','','','',null,'','','','','','','','','','','','','15:00','178600','','','','','','','','','','','','','','')
+Sql_Str3=INSERT INTO poc_test_74 values(?,'${2}${3}${4}',?,'E','T',
+Batch_pstmt=INSERT INTO `poc_test_74` VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,NULL,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Str1=E${1}#0/T,${2}${3}${4},
+Str3=#0/T,${2}${3}${4},
+Str2=,15:00,,,,,,,,,,,,,,,,,,,0101,60400,15:00,,,,,,,15:00,0246,,,,,,,,,,,,,,,,,,,,,,15:00,178600,,,,,,,,,,,,,,,
+${1}=9999,9999,4
+${2}=2021,2021,4
+${3}=06,06,2
+${4}=20,20,2
+DB_Host=localhost
+DB_User=root
+DB_Password=123456
+DB_Schema=tick
+DB_Table=poc_test_74
+Is_Col72=0
+Insert_Type=3
+AddInFile=LOAD DATA LOCAL INFILE 'sql.csv' IGNORE INTO TABLE poc_test_74 fields terminated by ','
+
+#d-rds-cluster-pri2-htu-zikitick-mysql.cluster-c82do96ymhpe.ap-northeast-1.rds.amazonaws.com
+#tickroot
+#KaihatuSys9191!
+#TESTDB_ZIKITICK
+#poc_test_pt
